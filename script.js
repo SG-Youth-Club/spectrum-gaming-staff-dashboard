@@ -80,7 +80,7 @@ function exportPDF() {
             quality: 1
         },
         html2canvas: {
-            scale: 2,
+            scale: 1,
             backgroundColor: "#12002e"
         },
         jsPDF: {
