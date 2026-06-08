@@ -54,12 +54,8 @@ function loadVersion() {
             document.querySelector(".page").innerHTML =
                 data.html;
 
-            // re-enable editing after loading
-            document.querySelectorAll(
-                ".page h1, .page h2, .page h3, .page h4, .page p, .page li, .page div.staff-name"
-            ).forEach(el => {
-                el.contentEditable = true;
-            });
+  // re-enable editing after loading
+document.querySelector(".page").contentEditable = true;
 
         };
 

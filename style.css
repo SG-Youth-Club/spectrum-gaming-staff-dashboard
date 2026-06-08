@@ -38,8 +38,8 @@ margin-bottom:10px;
     font-weight:900;
     margin-bottom:10px;
     color:#00D639;
-
 }
+
 
 .dashboard-pill{
 display:inline-block;
@@ -55,6 +55,16 @@ position:absolute;
 left:20px;
 top:20px;
 font-size:70px;
+}
+.logo{
+position:absolute;
+right:20px;
+top:20px;
+}
+
+.logo img{
+width:110px;
+height:auto;
 }
 
 .heart{
@@ -374,16 +384,5 @@ opacity:.9;
         font-size:24px;
     }
 
-    h2{
+    h2
         font-size:16px;
-    }.logo{
-    position:absolute;
-    right:20px;
-    top:20px;
-}
-
-.logo img{
-    width:90px;
-    height:auto;
-}
-}
