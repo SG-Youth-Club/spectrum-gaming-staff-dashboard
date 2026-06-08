@@ -371,6 +371,7 @@ opacity:.9;
         margin-bottom:8px;
         padding:10px;
         box-shadow:none;
+        break-inside:avoid;
     }
 
     .quick-card{
