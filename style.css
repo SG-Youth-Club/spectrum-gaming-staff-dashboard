@@ -14,7 +14,7 @@ padding:30px;
 }
 
 .page{
-    max-width:1400px;
+    width:960px;
     margin:auto;
     background:linear-gradient(180deg,#12002e,#050010);
     padding:20px;
