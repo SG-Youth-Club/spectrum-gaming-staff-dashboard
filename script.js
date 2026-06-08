@@ -1,14 +1,7 @@
 // Make dashboard editable
 document.addEventListener("DOMContentLoaded", () => {
-
-    document.querySelectorAll(
-        ".page h1, .page h2, .page h3, .page h4, .page p, .page li, .page div.staff-name"
-    ).forEach(el => {
-        el.contentEditable = true;
-    });
-
+    document.querySelector(".page").contentEditable = true;
 });
-
 // SAVE VERSION
 function saveCopy() {
 
