@@ -84,8 +84,8 @@ function exportPDF() {
             backgroundColor: "#12002e"
         },
         jsPDF: {
-            unit: "px",
-            format: [1200, element.scrollHeight]
+    unit: "px",
+    format: [1200, element.scrollHeight + 200]
         }
     };
 
